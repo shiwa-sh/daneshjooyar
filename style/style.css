@@ -1,0 +1,16 @@
+*{
+    direction: rtl;
+}
+#login{
+    border-radius: 25px;
+    border-color: #fccbd0;
+    background-color: #f85365
+}
+#email-input{
+    border: none;
+    border-radius: 25px;
+    /*border-top-left-radius:;*/
+}
+a{
+    text-decoration: none;
+}
