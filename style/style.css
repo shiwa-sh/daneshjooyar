@@ -14,3 +14,28 @@
 a{
     text-decoration: none;
 }
+#person-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.social-info{
+    font-size: 14px;
+}
+.left-element{
+    position: absolute;
+    left: 10%;
+}
+#card-sub{
+    text-align: center;
+    color: #f85365;
+    padding-bottom: 20%;
+
+}
+.info{
+    padding-bottom: 30px;
+}
+#card{
+    background-image: url("images/white.png");
+    background-repeat: no-repeat;
+}
