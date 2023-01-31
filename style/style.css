@@ -1,10 +1,21 @@
+
+
+@font-face {
+    font-family: roya;
+    src: local("font/BRoya.ttf");
+}
+
 *{
     direction: rtl;
+    font-family: roya;
 }
 #login{
     border-radius: 25px;
     border-color: #fccbd0;
     background-color: #f85365
+}
+#image-container{
+    padding-right: 10%;
 }
 #email-input{
     border: none;
@@ -26,7 +37,7 @@ a{
     position: absolute;
     left: 10%;
 }
-#card-sub{
+.card-sub{
     text-align: center;
     color: #f85365;
     padding-bottom: 20%;
@@ -35,7 +46,16 @@ a{
 .info{
     padding-bottom: 30px;
 }
-#card{
-    background-image: url("images/white.png");
+.card-container{
+    width: 18rem;
+    border-radius: 10px;
+    background-image: url("../images/w-bg1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+}
+.price-btn{
+    width: 95%;
+}
+.person-info{
+    padding-right: 3%;
 }
