@@ -1,10 +1,809 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>second page demo</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<!--  <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">-->
+  <link rel="stylesheet" href="style/singlePage.css">
+  <link rel="stylesheet" href="style/style.css">
+  <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">-->
 </head>
 <body>
-$END$
+<!-- header -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="container-fluid ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link"  href="#" style="color: #f85869">صفحه اصلی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">امکانات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">پیج ها</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">درباره ما</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> تماس</a>
+          </li>
+        </ul>
+      </div>
+      <button type="submit" class="btn btn-danger" id="login">ورود و ثبت نام</button>
+    </div>
+  </nav>
+</header>
+<!-- header -->
+<!-- main content-->
+<div class="container pb-5 d-flex flex-wrap justify-content-around">
+  <div class="sidebar">
+<!-- the sidebar label-->
+<div class=" pb-3 rounded-5 ">
+  <div class="label-box p-3  border sidebar-label">
+    <p> برچسب ها:</p>
+    <span class="bg-light rounded-3 label-child p-1 ">ahmadazizi<a href="#"><i class="bi bi-x"></i></a></span>
+    <span class="bg-light rounded-3 label-child  p-1">خانم<a href="#"><i class="bi bi-x"></i></a></span>
+    <span class="bg-light rounded-3 label-child p-1">tehran<a href="#"><i class="bi bi-x"></i></a></span><br>
+    <span class="bg-light rounded-3 label-child p-1">market<a href="#"><i class="bi bi-x"></i></a></span>
+  </div>
+</div>
+<!-- end of sidebar label-->
+<!--  classify content-->
+  <div class="classify border mb-3 rounded-5">
+    <div class="classify-title p-3 border-bottom "><i class="bi bi-card-list card-list-icon"></i>دسته بندی پیج ها</div>
+<!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">پیج های رسمی (دارای تیکت آبی)</label><span class="number-of-pages">(34)</span>
+        </div>
+      </div>
+<!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">سینما و تلویزیون</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">شرکت های تجاری</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">ورزش و سرگرمی</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">اخبار</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">آموزشی</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">مد و لباس</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">موسسات خیریه</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">کتاب</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">غذا</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">انگیزشی</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div class="border-bottom"> <div class="p-3">
+      <input type="checkbox"><label class="class-label">علم و تکنولوژی</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+    <!--    classify item-->
+    <div> <div class="p-3">
+      <input type="checkbox"><label class="class-label">دکوراسیون و معماری</label><span class="number-of-pages">(34)</span>
+    </div>
+    </div>
+    <!--    end of classify item-->
+  </div>
+<!--  end of classify content-->
+<!--    most viewer section-->
+    <div class="most-viewer border mb-3 rounded">
+      <div class="classify-title p-3 border-bottom "><i class="bi bi-people card-list-icon"></i>اکثریت دنبال کننده گان</div>
+      <!--    most viewer item-->
+      <div class="border-bottom"> <div class="p-3">
+        <input type="checkbox"><label class="class-label">همه</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of most viewer item-->
+      <!--    most viewer item-->
+      <div class="border-bottom"> <div class="p-3">
+        <input type="checkbox"><label class="class-label">خانم</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of most viewer item-->
+      <!--    most viewer item-->
+      <div class="border-bottom"> <div class="p-3">
+        <input type="checkbox"><label class="class-label">آقا</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of most viewer item-->
+      <!--    most viewer item-->
+      <div> <div class="p-3">
+        <input type="checkbox"><label class="class-label">بچه ها</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of most viewer item-->
+
+    </div>
+<!--    end of most viewer section-->
+<!--    number of followers section-->
+    <div class="follower-number border mb-3 rounded-2">
+      <div class="classify-title p-3 border-bottom "><i class="bi bi-people card-list-icon"></i>تعداد دنبال کننده گان</div>
+      <!--    number of viewer item-->
+      <div class="border-bottom"> <div class="p-3">
+        <input type="checkbox"><label class="class-label">همه</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of number of viewer item-->
+      <!--    number of viewer item-->
+      <div class="border-bottom"> <div class="p-3">
+        <input type="checkbox"><label class="class-label">کمتر از 1K</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of number of viewer item-->
+      <!--    number of viewer item-->
+      <div class="border-bottom"> <div class="p-3">
+        <input type="checkbox"><label class="class-label">از 1K تا 100K</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of number of viewer item-->
+      <!--    number of viewer item-->
+      <div class="border-bottom"> <div class="p-3">
+        <input type="checkbox"><label class="class-label">از 100K تا 1M</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of number of viewer item-->
+      <!--    number of viewer item-->
+      <div> <div class="p-3">
+        <input type="checkbox"><label class="class-label">بیشتر از 1M</label><span class="number-of-pages">(34)</span>
+      </div>
+      </div>
+      <!--    end of number of viewer item-->
+    </div>
+<!--    end of number os follower section -->
+<!--    search location section-->
+    <div class="search-location border rounded mb-3">
+      <div class="p-2">
+        <input type="search" class="rounded border p-1 mb-2 mr-2" placeholder="موقعیت رو جسنجو کن" id="search-location">
+
+      </div>
+      <div class="mb-2">
+      <span class="bg-light rounded-3 label-child p-1 ">مشهد<a href="#"><i class="bi bi-x"></i></a></span>
+      <span class="bg-light rounded-3 label-child p-1 ">تهران<a href="#"><i class="bi bi-x"></i></a></span>
+      <span class="bg-light rounded-3 label-child p-1 ">tehran<a href="#"><i class="bi bi-x"></i></a></span>
+      </div>
+    </div>
+<!--    end of search location section -->
+<!--    sponsor section-->
+    <div class="sponsor border rounded p-2 ">
+      <div class="form-check form-switch">
+        <input class="form-check-input sponsor-check" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+        <label class="form-check-label" for="flexSwitchCheckDefault">اسپانسر باشد</label>
+      </div>
+    </div>
+<!--    end of sponsor section-->
+  </div>
+<!--  end of sidebar-->
+
+<!--  cards section-->
+  <div class="card-section ">
+    <div class="search&filter">
+        <input type="search" class="border"  id="search" placeholder="نام پیجتو اینجا جستوجو کن">
+      <select name="label" id="select-label" class="border">
+        <option vlaue="most-view">پر بازدید ترین</option>
+        <option value="cheapest">ارزان ترین ها</option>
+        <option value="most-expensive">گران ترین ها</option>
+        <option value="best-seller">پر فروش ترین ها</option>
+      </select>
+    </div>
+<!--    main card section-->
+    <div class="d-flex flex-wrap justify-content-around">
+<!--      card item-->
+    <div class="card post-card m-2 shadow-sm card-con">
+      <div class="card-image post-img">
+      <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+      </div>
+      <div class="card-body">
+        <a href="#" class="card-link post-link">frestehoseini</a>
+        <br>
+        <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+        <div class="followers">
+          <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+          <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+        </div>
+        <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+        <a href="#" class="card-link text-dark all-pack-link">
+           مشاهده پکیج ها
+          <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+        </a>
+
+      </div>
+    </div>
+<!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/sd.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">sahardolatshahi</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/pb.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">pouribanaaei</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+      <!--      card item-->
+      <div class="card post-card m-2 shadow-sm card-con" >
+        <div class="card-image post-img">
+          <img class="card-img-top card-image shadow-sm" src="images/fh.jpg" alt="card image cap">
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link post-link">frestehoseini</a>
+          <br>
+          <span class="star-container">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+        </span>
+          <div class="followers">
+            <div class="pt-3"><span>دنبال کننده گان</span><span class="left-element">123</span></div>
+            <div class="pt-2 pb-2"><span>بیشترین دنبال کننده</span><span class="left-element">خانم</span></div>
+          </div>
+          <p class="card-text bg-light p-3 rounded">پیج اینستاگرام پوری بنایی بازیگر سینما و تلویزیون فالوور اینستاگرام پوری بنایی...</p>
+          <a href="#" class="card-link text-dark all-pack-link">
+            مشاهده پکیج ها
+            <i class="bi bi-arrow-left text-danger" style="padding-right: 5%"></i>
+          </a>
+        </div>
+      </div>
+      <!--      end of card item-->
+    </div>
+<!--    end of main card section -->
+  </div>
+<!--  end of card section-->
+<!--  pagination -->
+  <nav aria-label="..." class="pt-3 pagination">
+    <ul class="pagination pagination-sm">
+      <li class="page-item p-1" aria-current="page">
+        <span class="page-link p-item">1</span>
+      </li>
+      <li class="page-item p-1 "><a class="page-link p-item" href="#">2</a></li>
+      <li class="page-item p-1 "><a class="page-link p-item" href="#">3</a></li>
+      <li class="page-item p-1 "><a class="page-link p-item" href="#">...</a></li>
+      <li class="page-item p-1 "><a class="page-link p-item" href="#">9</a></li>
+      <li class="page-item p-1 "><a class="page-link p-item" href="#">10</a></li>
+      <li class="page-item p-1 active "><a class="page-link p-item" href="#" style="background-color: #f85365; border-color: #f85365 ">11</a></li>
+
+
+    </ul>
+  </nav>
+<!--  end of pagination -->
+</div>
+<!--end of main content-->
+
+<!-- footer -->
+<footer class="text-center text-lg-start bg-whitesmoke text-muted container-fluid bg-light pt-4">
+  <!-- section : form -->
+  <section class="px-5 border-bottom">
+    <form action="">
+      <div class="row d-flex justify-content-right">
+        <div class="col-auto">
+          <p class="pt-2">
+            <strong>ثبت در خبرنامه</strong>
+          <p> خبر های خوبی در راه است</p>
+
+        </div>
+
+        <!--             grid column -->
+        <div class="col-md-5 col-12">
+          <!--                email input -->
+          <div class="">
+            <input type="email" id="email-input" class="form-control" placeholder="ایمیل خود را وارد کنید و در خبرنامه عضو شوید" style="direction: rtl">
+            <label class="form-label"></label>
+          </div>
+        </div>
+        <!--            grid column-->
+        <div class="col-auto">
+          <button type="submit" class="btn btn-outline-danger mb-4">عضویت</button>
+        </div>
+      </div>
+    </form>
+  </section>
+  <!-- section : form -->
+  <!--    section : links-->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <!--grid column-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="fw-bold mb-4 border-bottom pb-3"> اطلاعات تماس</h6>
+          <p>
+            <a href="#" class="text-reset">021-88232156</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">info@alefgram.com</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset"> تهران - خیابان شهید احمد قصیر (بخارست سابق ) خیابان ششم - پلاک 6</a>
+          </p>
+        </div>
+        <!--                grid column-->
+        <!--grid column-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="fw-bold mb-4 border-bottom pb-3"> لینک های اصلی</h6>
+          <p>
+            <a href="#" class="text-reset">صفحه اصلی</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">امکانات</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">پیج ها</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">درباره ما</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">تماس با ما</a>
+          </p>
+        </div>
+        <!--                grid column-->
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="fw-bold mb-4 border-bottom pb-3">لینک های مفید</h6>
+          <p>
+            <a href="#" class="text-reset">ورود و ثبت نام</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">سوالات متداول</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">قوانین و مقررات</a>
+          </p>
+        </div>
+        <!--                -->
+        <!-- grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="fw-bold mb-4 border-bottom pb-3">برترین ها</h6>
+          <p>
+            <a href="#" class="text-reset">ahmadazizi</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">mohamasddf</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">elahelotfi</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">mohanamarket</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">instapage</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <img src="images/enamad.png" alt="enamad"><br>
+          <a class="btn btn-primary" style="background-color: #0082ca;" href="#" role="button"
+          ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="btn btn-primary" style="background-color: #3b5998;" href="#" role="button"
+          ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a class="btn btn-primary" style="background-color: #ac2bac;" href="#" role="button"
+          ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="btn btn-primary" style="background-color: #55acee;" href="#" role="button"
+          ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--    section : links-->
+</footer>
+<!-- footer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="script/script.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>-->
 </body>
 </html>

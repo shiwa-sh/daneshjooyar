@@ -1,13 +1,16 @@
 
 
-@font-face {
-    font-family: roya;
-    src: local("font/BRoya.ttf");
-}
+/*@font-face {*/
+/*    font-family: sans-m;*/
+/*    src: url("font/Fonts/irsans_p30download.com.ttf") format("truetype");*/
+/*}*/
 
 *{
     direction: rtl;
-    font-family: roya;
+    font-family: Arial,sans-serif,tahoma;
+}
+body{
+    background-color: #fdfdfd;
 }
 #login{
     border-radius: 25px;
